@@ -2,6 +2,7 @@
 
 ## Date: 08 January 2026
 - GitHub repository created
-- README added
-- Admin folder (roles & contributors) completed
-- Docs folder initialized
+- README.md added
+- admin folder created (roles.md, contributors.md)
+- docs folder created
+- Daily progress report updated
