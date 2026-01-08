@@ -214,6 +214,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# -----------------------------
+# Research sprint additions
+# -----------------------------
+
 # Colab / ML runtime artifacts
 .tensorboard/
 wandb/
