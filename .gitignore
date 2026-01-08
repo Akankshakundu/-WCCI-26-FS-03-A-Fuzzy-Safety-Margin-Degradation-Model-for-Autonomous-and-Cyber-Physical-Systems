@@ -1,22 +1,30 @@
-# Python
-__pycache__/
-*.py[cod]
-*.pyo
-*.pyd
-*.egg-info/
-dist/
-build/
+# Colab / ML runtime artifacts
+.tensorboard/
+wandb/
+mlruns/
+lightning_logs/
+.cache/
 
-# Jupyter
-.ipynb_checkpoints/
+# Raw & processed data
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
 
-# Data files
-*.csv
-*.xlsx
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.onnx
+*.pkl
 
-# OS files
-.DS_Store
-Thumbs.db
+# Large logs
+logs/*
+!logs/README.md
 
-# Logs
-*.log
+# Secrets
+secrets/
+credentials/
+*.key
+*.pem
